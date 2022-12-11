@@ -1,7 +1,8 @@
-name: End-to-End test 🧪
+name: E2E  🧪
 on:
   schedule:
-     - cron: '00 1 * * 1-5'  # At 01:00 every day.
+    - cron: '00 1 * * 1-5'  
+    #run every day At 1 AM
     
 jobs:
   cypress-run:
