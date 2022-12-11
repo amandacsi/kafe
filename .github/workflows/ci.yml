@@ -1,7 +1,7 @@
 name: E2E tests 🧪
 on: 
   schedule:
-    
+
     - cron: '5 * * * *'
 jobs:
   cypress-run:
@@ -11,5 +11,5 @@ jobs:
         uses: actions/checkout@v2
       # Install NPM dependencies, cache them correctly
       # and run all Cypress tests
-      - name: Run test every 8 minutes
+      - name: Run test every 8 min
         uses: cypress-io/github-action@v2
