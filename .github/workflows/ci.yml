@@ -1,8 +1,8 @@
 name: E2E tests 🧪
 on: 
   schedule:
-    # runs tests every 10 minutes
-    - cron: '8 * * * *'
+    
+    - cron: '5 * * * *'
 jobs:
   cypress-run:
     runs-on: ubuntu-20.04
