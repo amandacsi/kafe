@@ -1,5 +1,8 @@
-name: End-to-end tests 🧪
-on: [push]
+name: E2E
+on: 
+  schedule: 
+    # Daily at 8:20 UTC
+    - cron: '00 1 * * 1-5'
 jobs:
   cypress-run:
     runs-on: ubuntu-20.04
