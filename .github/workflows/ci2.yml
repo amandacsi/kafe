@@ -1,7 +1,8 @@
-name: E2E  🧪
+name: End-to-End test 🧪
 on:
   schedule:
-    - cron: '00 1 * * 1-5'  # At 01:00 every day.
+     - cron: '00 1 * * 1-5'  # At 01:00 every day.
+    
 jobs:
   cypress-run:
     runs-on: ubuntu-20.04
@@ -12,3 +13,5 @@ jobs:
       # and run all Cypress tests
       - name: Run test every day
         uses: cypress-io/github-action@v3
+
+
