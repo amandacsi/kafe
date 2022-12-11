@@ -1,0 +1,12 @@
+{
+"testFiles": "**/*.{feature,features}",
+"baseUrl": "https://casinoscanada.com/",
+"viewportHeight": 1024,
+"viewportWidth": 768,
+"retries": {
+    "runMode": 2,
+    "openMode": 0
+}
+
+
+}
