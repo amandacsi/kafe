@@ -1,16 +1,12 @@
-name: E2E  🧪
-on:
-  schedule:
-    - cron: '00 1 * * 1-5'  
-    #run every day At 1 AM
-    
+name: End-to-end tests 🧪
+on: [push]
 jobs:
   cypress-run:
     runs-on: ubuntu-20.04
     steps:
-      - name: run pipeline
-        uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v2
       # Install NPM dependencies, cache them correctly
       # and run all Cypress tests
-      - name: Run test every day
-        uses: cypress-io/github-action@v3
+      - name: Cypress run
+        uses: cypress-io/github-action@v2
