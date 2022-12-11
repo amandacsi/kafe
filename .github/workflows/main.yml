@@ -1,4 +1,4 @@
-name: E2E
+name: E2E 🧪
 on: 
   schedule: 
     # Daily at 8:20 UTC
