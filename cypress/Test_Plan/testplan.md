@@ -50,7 +50,7 @@ test types are determined in Test Strategy.
 Team also must used experience-based testing and error guessing utilize testers' skills and
 intuition, along with their experience with similar applications or technologies.
 
-5. Test Automation
+5. TEST AUTOMATION 
 
 Test automation is here to stay. That’s because good test automation reduces manual effort through repeatable, stable processes, increases ROI on testing, accelerates testing and feedback, and in the long run reduces business expenses. 
 The tool that will be used by the qa team will be cypress.
@@ -58,7 +58,7 @@ Cypress has native control and access to the entire application, and with this f
 
 6. ENTRY AND EXIT CRITERIA
 
-6.1 Entry Criteria
+6.1 Entry criteria  
 
 > -  All test hardware platforms must have been successfully installed, configured, and
 >functioning properly.
@@ -72,7 +72,7 @@ Cypress has native control and access to the entire application, and with this f
 > -  QA resources have completely understood the requirements
 > -  QA resources have sound knowledge of functionality
 
-6.2 Exit Criteria
+6.2 EXIT CRITERIA
 
 A certain level of requirements coverage has been achieved.
 No high priority or severe bugs are left outstanding.
@@ -108,7 +108,7 @@ delivered along with sample output by email to respective lead and Report group.
 > - Once lead gets the hard copy of delivery slip filled by QA and developer, he will send
 the report delivery email to client.
 
-8. Testing types
+8. TESTING TYPES 
 
 **Black box testing:** 
 It is some time called behavioral testing or Partition testing. This kind of testing focuses on
@@ -128,16 +128,19 @@ accuracy of the report output/data.
 System Testing:
 System testing of software is testing conducted on a complete, integrated system to
 evaluate the system's compliance with its specified requirements.
+
 **Performance Testing:**
 > - Check the optimal time the page is loaded
 > - Check the operation of the system under load
+
 **User acceptance testing:**
+
 The purpose behind user acceptance testing is to conform that system is developed
 according to the specified user requirements and is ready for operational use. Acceptance
 testing is carried out at two levels - Alpha and Beta Testing. User acceptance testing
 (UAT) will be done at the Client.
 
-9. Bug Severity and Priority Definition
+9. BUG SEVERITY AND PRIORITY DEFINITION 
 
 Bug Severity and Priority fields are both very important for categorizing bugs and
 prioritizing if and when the bugs will be fixed. The bug Severity and Priority levels will
@@ -152,21 +155,22 @@ routine basis to address the current set of new and existing but unresolved bugs
 10. RESOURCE AND ENVIRONMENT NEEDS
 
 > - 10.1 Testing Tools
-Process Tool
-|       Process                | Tools              | 
-|-----------------------------:|--------------------|
-| Test case creation           |     Jira           |            
-| Test case tracking           |    Microsoft Excel | 
-| Test case execution automatic|    Cypress         |                                         
-| Defect management            |    Jira            | 
-| Test reporting               |    PDF             |      
 
-11. Configuration Management
+
+       Process                   | Tools              
+
+ _Test case creation_              **Jira**                      
+ _Test case tracking_              **Microsoft Excel**
+ _Test case execution automatic_   **Cypress**                                                 
+ _Defect management_               **Jira**             
+ _Test reporting_                   **PDF**                 
+
+11. CONFIGURATION MANAGEMENT 
 
 > - Documents QA: Git
 > - Code QA: Git
 
-12. Test Environment
+12. TEST ENVIRONMENT 
 
 > - Support level 1 (browsers):
 > -Windows 11: Edge, Chrome (latest), Firefox (latest), Safari (latest)
@@ -181,66 +185,3 @@ Process Tool
 
 Project Manager: Name and signature
 QA Lead: Name and signature
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4. No seu fork do projeto, clique no botão **Code**, escolha uma opção de clone (HTTPS ou SSH) e copie o link de clone do projeto
-
-> 👨‍🏫 Eu dou preferência ao clone via SSH, pois considero mais prático.
->
-> Para detalhes sobre como criar e configurar uma chave SSH no GitHub, leia a [documentação oficial](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh).
-
-5. Em seu terminal de linha de comando (em uma pasta onde você armazene seus projetos de software), execute o comando `git clone [cole-o-link-copiado-aqui]`.
-
-> 👨‍🏫 Para garantir que está clonando o seu fork, verifique a existência do seu usuário no GitHub na URL de clone do projeto. Algo como o seguinte `git@github.com:[seu-usuário-aqui]/cypress-basico-v2.git`
-
-6. Após o clone do projeto, acesse o diretório recém clonado (ex.: `cd cypress-basico-v2/`).
-
-> **Obs.:** Dentro do diretório `cypress-basico-v2/`, você terá os sub-diretórios `.git/` (diretório oculto), `lessons/` e `src/`, e os arquivos `.gitignore` (arquivo oculto), `LICENSE`, `package.json` e `README.md`.
->
-> Dentro do diretório `src/`, você terá os arquivos `index.html`, `privacy.html`, `script.js` e `style.css`, os quais são o código-fonte da aplicação em teste.
-
-## Instalação e inicialização do [Cypress](https://cypress.io) 🌲
-
-1. Na raiz do projeto, execute o comando `npm install cypress@9.5.1 --save-dev` (ou `npm i cypress@9.5.1 -D` para a versão curta)
-2. Logo após, execute o comando `npx cypress open` para abrir o Cypress pela primeira vez
-3. Por fim, com o _Test Runner_ aberto, delete os exemplos criados automaticamente, crie um arquivo chamado `CAC-TAT.spec.js` e feche o _Test Runner_.
-
-> **Obs. 2:** Quando inicializado pela primeira vez, o Cypress automaticamente cria o arquivo `cypress.json` e o diretório `cypress/`, com os sub-diretórios `fixtures/`, `integration/`, `plugins/` e `support/`, com seus respetivos arquivos (com exceção dos exemplos, que acabamos de deletar).
-
-## Configurações extra
-
-1. Atualize o arquivo `cypress.json` conforme abaixo.
-
-```json
-{
-  "pluginsFile": false,
-  "viewportHeight": 880,
-  "viewportWidth": 1280
-}
-```
-
-> 👨‍🏫 Com isso, estamos "dizendo ao Cypress" que:
->
-> - Não vamos usar o arquivo de plugins (o qual é criado automaticamente e não precisaremos durante  o curso)
-> - Iremos sobrescrever a altura e largura do [_viewport_ padrão do Cypress](https://docs.cypress.io/api/commands/viewport#Defaults)
-
-2. Delete o diretório `cypress/plugins/`, visto que este não será necessário durante o curso.
-
-3. Pronto!
-
-___
-
-Agora que o _setup_ está pronto, vá para a [aula 1](./01.md) para escrevermos o primeiro teste.
