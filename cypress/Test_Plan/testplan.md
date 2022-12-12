@@ -19,7 +19,9 @@ Requirements Specifications provided by Client.
 > - GUI
 > -  Search and Filters Logic
 > -  Performance
+> 
 > 2.2  Functions not to be tested.
+> 
 > Not other than mentioned above in section 2.1
 
 3. QUALITY OBJECTIVES 
