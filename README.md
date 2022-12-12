@@ -3,7 +3,7 @@
 Project with scenarios and test plan (cypress)
 =======
 ## kafe
-## Automated Testing and Plan Test( with Cypress and Cucumber)
+## Automated Testing and Plan Test(with Cypress and Cucumber)
 
 kafe project for test automation, [TEST PLAN](https://github.com/amandacsi/kafe/tree/master/cypress/Test_Plan),  UI acceptance, API acceptance testin and CI integration.
 Created with lessons learned from a large number of development projects to provide all commonly required components and concepts.
@@ -23,7 +23,9 @@ Github
 Cypress
 Cucumber
 
+## Project structure organization
 
+[Feature](https://github.com/amandacsi/kafe/blob/main/cypress/integration/homepage.feature)
+[Steps](https://github.com/amandacsi/kafe/blob/main/cypress/integration/homepage/steps.js)
+[Development](https://github.com/amandacsi/kafe/blob/main/cypress/integration/homepage/homepage.js)
 
-
->>>>>>> d06f3c0fdf85a74e4e7aa52d9b23a25b72e28db8
