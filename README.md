@@ -29,3 +29,9 @@ Cucumber
 [Steps](https://github.com/amandacsi/kafe/blob/main/cypress/integration/homepage/steps.js)
 [Development](https://github.com/amandacsi/kafe/blob/main/cypress/integration/homepage/homepage.js)
 
+**Why I chose cypress with cucumber** 
+
+Cypress é um framework gratuito, de código aberto, instalado localmente e também te oferece um Dashboard para acompanhar seus testes.
+Cypress is a tool that allows you to write both front-end and back-end tests, it was developed for the modern web. Widely used by developers and quality assurance engineers who build web applications using modern JavaScript frameworks.
+Cypress is a free, open source, locally installed framework and also offers you a Dashboard to track your tests and provides integration with Cucumber for writing the test scenarios in BDD format. 
+
