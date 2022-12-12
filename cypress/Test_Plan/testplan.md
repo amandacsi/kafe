@@ -111,17 +111,22 @@ the report delivery email to client.
 8. TESTING TYPES 
 
 **Black box testing:** 
+
 It is some time called behavioral testing or Partition testing. This kind of testing focuses on
 the functional requirements of the software. It enables one to derive sets of input
 conditions that that will fully exercise all functional requirements for a program.
 GUI Testing:
 GUI testing will includes testing the UI part of report. It covers users Report format, look
 and feel, error messages, spelling mistakes, GUI guideline violations.
+
 **Integration Testing:** 
+
 Integration testing is systematic technique for constructing the program structure while
 conducting test to uncover errors associated with interacting. In Report, integration testing
 includes the testing Report from respective location(s).
+
 **Functional Testing:** 
+
 Functional testing is carried out in order to find out unexpected behavior of the report. The
 characteristic of functional testing are to provide correctness, reliability, testability and
 accuracy of the report output/data.
@@ -157,12 +162,16 @@ routine basis to address the current set of new and existing but unresolved bugs
 > - 10.1 Testing Tools
 
 
-       Process                   | Tools              
+       Process                       | Tools              
 
- _Test case creation_              **Jira**                      
+ _Test case creation_              **Jira**  
+ 
  _Test case tracking_              **Microsoft Excel**
- _Test case execution automatic_   **Cypress**                                                 
- _Defect management_               **Jira**             
+ 
+ _Test case execution automatic_   **Cypress**   
+ 
+ _Defect management_               **Jira**  
+ 
  _Test reporting_                   **PDF**                 
 
 11. CONFIGURATION MANAGEMENT 
