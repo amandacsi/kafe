@@ -2,7 +2,7 @@
 
 Project with scenarios and test plan (cypress)
 =======
-## kafe
+
 ## Automated Testing and Plan Test(with Cypress and Cucumber)
 
 kafe project for test automation, [TEST PLAN](https://github.com/amandacsi/kafe/tree/master/cypress/Test_Plan),  UI acceptance, API acceptance testin and CI integration.
