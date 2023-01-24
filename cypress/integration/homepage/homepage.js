@@ -1,7 +1,7 @@
 
 ///////////////////////HOME PAGE/////////////////////////////////////
 const SELECTORS = {
-    title:':nth-child(37) > [data-testid="heading-h2"]',
+    title:'[data-testid="loadMoreRankings"]',
     text:':nth-child(12) > p',
     container:':nth-child(13) > .bg-white > .grid > [data-nosnippet="true"] > ul > :nth-child(1)',
     link1: 'a[href*="#methodes-de-paiement"]',
