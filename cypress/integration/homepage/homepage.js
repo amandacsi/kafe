@@ -1,9 +1,9 @@
 
 ///////////////////////HOME PAGE/////////////////////////////////////
 const SELECTORS = {
-    title:':nth-child(36) > [data-testid="heading-h2"]',
+    title:':nth-child(37) > [data-testid="heading-h2"]',
     text:':nth-child(12) > p',
-    container: ':nth-child(36) > .mb-4 > :nth-child(4)',
+    container:':nth-child(13) > .bg-white > .grid > [data-nosnippet="true"] > ul > :nth-child(1)',
     link1: 'a[href*="#methodes-de-paiement"]',
     link2: 'a[href*="#gamme-de-jeux"]',
     link3: 'a[href*="#mobile"]',
