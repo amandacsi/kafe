@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "cypress": "^9.5.1",
+    "cypress": "^9.5.4",
     "cypress-cucumber-preprocessor": "^4.3.1"
   },
   "cypress-cucumber-preprocessor": {
@@ -18,8 +18,4 @@
     "report:mocha": "marge index.json",
     "report:clean": "rimraf mochawesome-report index.js"
   }
-  
-
 }
-
-

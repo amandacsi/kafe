@@ -1,5 +1,9 @@
-## kafe
-## Automated Testing and Plan Test( with Cypress and Cucumber)
+
+
+Project with scenarios and test plan (cypress)
+=======
+
+## Automated Testing and Plan Test(with Cypress and Cucumber)
 
 kafe project for test automation, [TEST PLAN](https://github.com/amandacsi/kafe/tree/master/cypress/Test_Plan),  UI acceptance, API acceptance testin and CI integration.
 Created with lessons learned from a large number of development projects to provide all commonly required components and concepts.
@@ -19,6 +23,14 @@ Github
 Cypress
 Cucumber
 
+## Project structure organization
 
+[Feature](https://github.com/amandacsi/kafe/blob/main/cypress/integration/homepage.feature)
+[Steps](https://github.com/amandacsi/kafe/blob/main/cypress/integration/homepage/steps.js)
+[Development](https://github.com/amandacsi/kafe/blob/main/cypress/integration/homepage/homepage.js)
 
+**Why I chose cypress with cucumber** 
+
+Cypress is a tool that allows you to write both front-end and back-end tests, it was developed for the modern web. Widely used by developers and quality assurance engineers who build web applications using modern JavaScript frameworks.
+Cypress is a free, open source, locally installed framework and also offers you a Dashboard to track your tests and provides integration with Cucumber for writing the test scenarios in BDD format. 
 
